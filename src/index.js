@@ -6,9 +6,9 @@ import "./index.css";
 import { router } from "./router";
 
 ReactDOM.render(
-  // <App />,
+  <App />,
 
-  <RouterProvider router={router} />,
+  // <RouterProvider router={router} />,
 
   document.getElementById("root")
 );

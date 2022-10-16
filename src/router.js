@@ -8,11 +8,12 @@ import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Sidebar } from "./pages/Sidebar";
 import React from "react";
+import { Home } from "./pages/Home";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <Sidebar />,
+    element: <Home />,
     children: [
       {
         path: "/contact",
